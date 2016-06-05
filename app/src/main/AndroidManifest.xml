@@ -38,10 +38,6 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".Diary"
-            android:screenOrientation="portrait" />
-
-        <activity
             android:name=".HelpActivity"
             android:screenOrientation="portrait"></activity>
 
