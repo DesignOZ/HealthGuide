@@ -21,7 +21,12 @@
         <activity
             android:name="com.mobile.healthguide.MainActivity"
             android:configChanges="keyboardHidden|orientation"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.mobile.healthguide.util.Splash"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,50 +34,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mobile.healthguide.util.SplashActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" />
-        <activity
             android:name="com.mobile.healthguide.HelpActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.MenuActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.menu.IntroActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.menu.UseActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.menu.ExerActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.BeforeMenuActiviy"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.MenuActiviry2"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.MenuActivity3"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity android:name="com.mobile.healthguid.db.DbActivity" />
     </application>
 

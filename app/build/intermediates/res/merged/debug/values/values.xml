@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <color name="bgSecondary">#90D7EE</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#57abdf</color>
+    <color name="colorPrimaryDark">#324D5B</color>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">Health Guide</string>
-    <string name="hello_world">Hello world!</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

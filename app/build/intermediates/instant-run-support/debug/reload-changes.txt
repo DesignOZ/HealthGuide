@@ -1,0 +1,6 @@
+CHANGED,D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mobile\healthguide\MainActivity$4$override.class
+CHANGED,D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mobile\healthguide\MainActivity$override.class
+CHANGED,D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mobile\healthguide\MainActivity$3$override.class
+CHANGED,D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mobile\healthguide\MainActivity$1$override.class
+CHANGED,D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mobile\healthguide\MainActivity$2$override.class

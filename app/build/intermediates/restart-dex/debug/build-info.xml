@@ -4,29 +4,34 @@
     api-level="24"
     density="420dpi"
     format="7"
-    timestamp="921910596815021" >
+    timestamp="924286279848038" >
 
     <task
         name="javac"
-        duration="1488" />
+        duration="274" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1240" />
+        duration="130" />
     <task
         name="verifier"
-        duration="344" />
+        duration="16" />
 
     <artifact
-        location="D:\Desktop\HealthGuideAppbt\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
 
-    <build timestamp="921910596815021" >
+    <build timestamp="924188524547677" >
         <artifact
             location="D:\Desktop\HealthGuideAppbt\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="924286279848038" >
+        <artifact
+            location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

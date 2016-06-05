@@ -1,17 +1,14 @@
 package com.mobile.healthguide;
 
 import com.mobile.healthguid.db.DbActivity;
-import com.mobile.healthguide.BeforeMenuActiviy;
 import com.mobile.healthguide.menu.IntroActivity;
-import com.mobile.healthguide.util.SplashActivity;
+import com.mobile.healthguide.util.Splash;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -27,8 +24,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-
-		startActivity(new Intent(this, SplashActivity.class));
 
 		backPressCloseHandler = new BackPressCloseHandler(this);
 
