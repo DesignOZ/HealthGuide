@@ -1,0 +1,55 @@
+package com.mobile.healthguide.menu;
+
+import com.mobile.healthguide.MenuActivity;
+import com.mobile.healthguide.R;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Vibrator;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class IntroActivity extends Activity {
+	Button btnUse, btnStart, btnBack;
+	String sSelect = "";
+	Vibrator vibe;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_intro);
+		vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+
+		Intent intent = getIntent();
+		sSelect = intent.getStringExtra("select");
+		
+		btnUse = (Button)findViewById(R.id.btnUse_Intro);
+		btnUse.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(IntroActivity.this, UseActivity.class);
+				intent.putExtra("select", sSelect);
+				vibe.vibrate(100);
+				startActivity(intent);
+			}
+		});
+		
+		btnStart = (Button)findViewById(R.id.btnStart_Intro);
+		btnStart.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(IntroActivity.this, ExerActivity.class);
+				intent.putExtra("select", sSelect);
+				vibe.vibrate(100);
+				startActivity(intent);
+			}
+		});
+		
+	}
+	
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sit_up2.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\sit_up2.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lastsitup2.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\lastsitup2.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chin_up2.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\chin_up2.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\startex.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\startex.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\push_up2.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\push_up2.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lastpushup2.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\lastpushup2.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appinfo4.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\appinfo4.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lastchinup2.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\lastchinup2.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

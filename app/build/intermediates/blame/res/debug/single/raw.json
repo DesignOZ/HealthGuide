@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\raw\\test_test.mp4",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\raw\\test_test.mp4"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bell.mp3",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\raw\\bell.mp3"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\raw\\finish.mp3",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\raw\\finish.mp3"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\raw\\voice.mp3",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\raw\\voice.mp3"
+    }
+]

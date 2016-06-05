@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobile.healthguide.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+		android:weightSum="1">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+                android:id="@+id/tvTitle_Exer"
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+				android:text="제목"
+                android:gravity="center"
+                android:background="#f6f6f6"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="+ DB"
+				android:textSize="30dp"
+				android:layout_gravity="left"
+				android:id="@+id/btnSavedb" />
+		</LinearLayout>
+
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="0.26">
+	        
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.2"
+		        android:text="목표 개수: "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		        
+		    <EditText
+		        android:id="@+id/edtMax"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_width="240dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.8"
+		        android:ems="10"
+		        android:gravity="center"
+		        android:inputType="number"
+		        android:text="0"
+		        android:textSize="25dp" >
+	
+		        <requestFocus />
+		    </EditText>
+	    </LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="241dp"
+			android:layout_weight="0.46">
+
+			<TextView
+                android:id="@+id/tvNow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+				android:text="0개"
+                android:gravity="center"
+                android:textSize="100dp"
+                android:background="#f6f6f6"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.18">
+
+			<TextView
+                android:id="@+id/tvState"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+				android:text="중지"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:background="#fff"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<Button
+android:id="@+id/btnBack_Exer"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:background="#f6f6f6"
+android:text=""
+android:textSize="30sp" />
+
+</RelativeLayout>

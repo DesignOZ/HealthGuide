@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgda"
+    android:layout_height="match_parent"
+    
+    tools:context="com.mobile.healthguide.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnpri_Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="private"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btnmanbo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="만보기"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnContent_Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f6f6f6"
+            android:text="Content"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btndb_Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="DB"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
