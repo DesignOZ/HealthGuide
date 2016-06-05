@@ -4,7 +4,7 @@
     api-level="24"
     density="420dpi"
     format="7"
-    timestamp="934239010927503" >
+    timestamp="938162713187720" >
 
     <task
         name="javac"
@@ -19,11 +19,19 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="934095285976438" >
+    <artifact
+        location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="938077937103016" >
         <artifact
             location="D:\Desktop\HealthGuideAppbt\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="934239010927503" />
+    <build timestamp="938162713187720" >
+        <artifact
+            location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
 
 </instant-run>

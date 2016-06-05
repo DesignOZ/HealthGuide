@@ -38,9 +38,6 @@
             android:name="com.mobile.healthguide.Accessory"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.mobile.healthguide.Diary"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.mobile.healthguide.HelpActivity"
             android:screenOrientation="portrait" />
         <activity
