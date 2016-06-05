@@ -48,14 +48,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //160605 추가
         findViewById(R.id.main_walk).setOnClickListener(this);          // 만보계
 
-        findViewById(R.id.main_accesary).setOnClickListener(this);      // 악세서리 (아두이노)
-        findViewById(R.id.main_stretching).setOnClickListener(this);    // 스트레칭
+        findViewById(R.id.txt_accessory).setOnClickListener(this);      // 악세서리 (아두이노)
+        findViewById(R.id.txt_stretching).setOnClickListener(this);     // 스트레칭
 
         findViewById(R.id.workout_top).setOnClickListener(this);        // 상체
         findViewById(R.id.workout_middle).setOnClickListener(this);     // 복근
         findViewById(R.id.workout_bottom).setOnClickListener(this);     // 하체
 
-        findViewById(R.id.txt_diary).setOnClickListener(this);         // 다이어리 (DB)
+        findViewById(R.id.txt_diary).setOnClickListener(this);          // 다이어리 (DB)
 
 //		btndb = (Button)findViewById(R.id.btnpri_Main);
 //		btndb.setOnClickListener(new OnClickListener(){
@@ -107,12 +107,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "만보계", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.main_accesary:
+            case R.id.txt_accessory:
                 Intent accessory = new Intent(MainActivity.this, Accessory.class);
                 startActivity(accessory);
                 break;
 
-            case R.id.main_stretching:
+            case R.id.txt_stretching:
                 Intent help = new Intent(MainActivity.this, HelpActivity.class);
                 startActivity(help);
                 break;

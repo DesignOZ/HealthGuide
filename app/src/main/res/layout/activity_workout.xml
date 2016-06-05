@@ -10,27 +10,29 @@
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/include_stretching" />
+        android:layout_above="@+id/include2" />
 
     <include
-        android:id="@+id/include_accesary"
-        layout="@layout/main_accesary"
+        android:id="@+id/include2"
+        layout="@layout/main_stretching"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/include"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/main_accessory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin" />
 
-    <include
-        android:id="@+id/include_stretching"
-        layout="@layout/main_stretching"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/include_accesary"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin" />
 </RelativeLayout>

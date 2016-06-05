@@ -1,17 +1,20 @@
 package com.mobile.healthguide;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Workout extends AppCompatActivity {
+public class Workout extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +29,13 @@ public class Workout extends AppCompatActivity {
         Intent intent = getIntent();
         int workout = intent.getIntExtra("workout", 0);
 
+        // SetOnClickLIstener
+        findViewById(R.id.txt_accessory).setOnClickListener(this);
+        findViewById(R.id.txt_stretching).setOnClickListener(this);
+
+
+
+        //RecyclerView
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setHasFixedSize(true);
@@ -108,4 +118,21 @@ public class Workout extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+        final Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        switch (v.getId())  {
+            case R.id.txt_stretching :
+                Intent help = new Intent(this, HelpActivity.class);
+                startActivity(help);
+                vibe.vibrate(100);
+                break;
+
+            case R.id.txt_accessory :
+                Intent accessory = new Intent(this, Accessory.class);
+                startActivity(accessory);
+                vibe.vibrate(100);
+                break;
+        }
+    }
 }

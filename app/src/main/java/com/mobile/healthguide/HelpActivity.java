@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 
 public class HelpActivity extends AppCompatActivity{
@@ -33,5 +34,14 @@ public class HelpActivity extends AppCompatActivity{
 		vibe.vibrate(100);
 		startActivity(browserIntent2);
 	}
-
+	// event for Menu item at ActionBar
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				finish();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
+	}
 }

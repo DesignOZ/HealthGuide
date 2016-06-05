@@ -20,6 +20,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -499,6 +500,17 @@ public class ExerActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),
                     "블루투스 연결 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
             finish();
+        }
+    }
+
+    // event for Menu item at ActionBar
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 

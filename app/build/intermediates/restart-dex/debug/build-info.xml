@@ -4,7 +4,7 @@
     api-level="24"
     density="420dpi"
     format="7"
-    timestamp="938162713187720" >
+    timestamp="938612818341850" >
 
     <task
         name="javac"
@@ -23,12 +23,12 @@
         location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="938077937103016" >
+    <build timestamp="938478806108449" >
         <artifact
             location="D:\Desktop\HealthGuideAppbt\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="938162713187720" >
+    <build timestamp="938612818341850" >
         <artifact
             location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />

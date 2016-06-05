@@ -8,11 +8,12 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class IntroActivity extends AppCompatActivity{
+public class IntroActivity extends AppCompatActivity {
     Button btnUse, btnStart, btnBack;
     String sSelect = "";
     Vibrator vibe;
@@ -56,4 +57,14 @@ public class IntroActivity extends AppCompatActivity{
 
     }
 
+    // event for Menu item at ActionBar
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 }

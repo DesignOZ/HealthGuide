@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.mobile.healthguide.MainActivity"
+    tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
     <include
@@ -20,15 +20,15 @@
         android:layout_height="120dp" />
 
     <include
-        layout="@layout/main_accesary"
+        layout="@layout/main_accessory"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_marginTop="@dimen/activity_vertical_margin" />
 
     <include
         layout="@layout/main_stretching"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginTop="@dimen/activity_vertical_margin" />
 
     <include

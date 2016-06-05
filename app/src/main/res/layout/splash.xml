@@ -7,7 +7,25 @@
     android:background="#74BCD4"
     tools:context="com.mobile.healthguide.Splash">
 
-    <include layout="@layout/splash_background" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        tools:showIn="@layout/splash">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bgSecondary"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"></LinearLayout>
+    </LinearLayout>
 
     <RelativeLayout
         android:id="@+id/relativeLayout"

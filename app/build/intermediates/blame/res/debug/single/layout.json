@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_beforemenu.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_beforemenu.xml"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -68,24 +64,24 @@
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_time.xml"
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_accessory.xml",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\main_accessory.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_stretching.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\main_stretching.xml"
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_diary.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\main_diary.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_stretching.xml",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\main_stretching.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_exer.xml",
@@ -172,10 +168,6 @@
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diary.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_diary.xml"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
@@ -184,20 +176,12 @@
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu3.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_menu3.xml"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu2.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_menu2.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_db.xml",
@@ -222,14 +206,6 @@
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stretching.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\activity_stretching.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_accesary.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\main_accesary.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -290,9 +266,5 @@
     {
         "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\HealthGuideAppbt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_background.xml",
-        "source": "D:\\Desktop\\HealthGuideAppbt\\app\\src\\main\\res\\layout\\splash_background.xml"
     }
 ]
