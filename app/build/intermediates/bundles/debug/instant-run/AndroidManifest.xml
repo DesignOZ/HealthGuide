@@ -29,27 +29,32 @@
         <activity
             android:name="com.mobile.healthguide.MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.mobile.healthguide.Workout" />
-        <activity android:name="com.mobile.healthguide.Accessory" />
-        <activity android:name="com.mobile.healthguide.Diary" />
+        <activity
+            android:name="com.mobile.healthguide.Workout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobile.healthguide.Accessory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobile.healthguide.Diary"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.HelpActivity"
-            android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.menu.IntroActivity"
-            android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.menu.UseActivity"
-            android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.mobile.healthguide.menu.ExerActivity"
-            android:label="@string/app_name"
             android:screenOrientation="portrait" />
-        <activity android:name="com.mobile.healthguide.db.DbActivity" />
+        <activity
+            android:name="com.mobile.healthguide.db.DbActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
