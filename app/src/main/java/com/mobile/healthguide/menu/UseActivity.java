@@ -6,6 +6,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebIconDatabase.IconListener;
@@ -16,7 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-public class UseActivity extends Activity {
+public class UseActivity extends AppCompatActivity{
 	TextView tvText;
 	Button btnBack;
 	String sSelect = "";
@@ -27,6 +29,10 @@ public class UseActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_use);
+
+		// Insert Menu item at Actionbar
+		ActionBar actionBar = getSupportActionBar();
+		actionBar.setDisplayHomeAsUpEnabled(true);
 
 		Intent intent = getIntent();
 		sSelect = intent.getStringExtra("select");	

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#74BCD4"
-    tools:context="com.example.horyeong.healthguide_design_sample.Splash">
+    tools:context="com.mobile.healthguide.Splash">
 
     <include layout="@layout/splash_background" />
 

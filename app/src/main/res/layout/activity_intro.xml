@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mobile.healthguide.MainActivity" >
+    tools:context="com.mobile.healthguide.menu.IntroActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -11,9 +11,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-        
+
         <Button
             android:id="@+id/btnUse_Intro"
             android:layout_width="match_parent"
@@ -23,12 +23,12 @@
             android:text="운동방법"
             android:textSize="30sp" />
 
-         <LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
-            android:padding="5dp"
             android:layout_weight="0.2"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:padding="5dp">
 
             <Button
                 android:id="@+id/btnStart_Intro"
@@ -36,12 +36,11 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:background="@drawable/startex"
-                android:padding="10dp"/>
+                android:padding="10dp" />
 
         </LinearLayout>
 
- 
-        
-    </LinearLayout>	
+
+    </LinearLayout>
 
 </RelativeLayout>

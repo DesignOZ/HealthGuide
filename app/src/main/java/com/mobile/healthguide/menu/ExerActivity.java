@@ -25,7 +25,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobile.healthguid.db.DbActivity;
+import com.mobile.healthguide.db.DbActivity;
 import com.mobile.healthguide.R;
 import com.mobile.healthguide.util.Kalman;
 
