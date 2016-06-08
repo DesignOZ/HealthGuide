@@ -15,24 +15,25 @@
     tools:showIn="@layout/content_main">
 
     <TextView
-        android:clickable="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:clickable="false"
         android:gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
         android:text="최근 일주일"
         android:textSize="16sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:clickable="false"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
+        android:clickable="false"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -200,6 +201,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:gravity="right|center_vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:text="더보기 →"
         android:textSize="16sp"
         android:textStyle="bold" />

@@ -64,12 +64,12 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\drawable-hdpi\\juho_3.png"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\juho_6.png",
         "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\drawable-hdpi\\juho_6.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\juho_9.png",
@@ -176,12 +176,12 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\juho_4.png",
         "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\drawable-hdpi\\juho_4.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
@@ -220,12 +220,12 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\juho_11.png",
         "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\drawable-hdpi\\juho_11.png"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",

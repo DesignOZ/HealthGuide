@@ -51,6 +51,10 @@
         <activity
             android:name="com.mobile.healthguide.DBActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobile.healthguide.DiaryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.mobile.healthguide.WalkActivity" />
     </application>
 
 </manifest>

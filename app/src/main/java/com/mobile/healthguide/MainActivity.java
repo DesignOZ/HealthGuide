@@ -2,6 +2,8 @@ package com.mobile.healthguide;
 
 import android.content.Context;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.design.widget.NavigationView;
@@ -55,54 +57,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         findViewById(R.id.workout_bottom).setOnClickListener(this);     // 하체
 
         findViewById(R.id.txt_diary).setOnClickListener(this);          // 다이어리 (DB)
-
-//		btndb = (Button)findViewById(R.id.btnpri_Main);
-//		btndb.setOnClickListener(new OnClickListener(){
-//			@Override
-//			public void onClick(View v) {
-//				Intent intent = new Intent(MainActivity.this, BeforeMenuActiviy.class);
-//				vibe.vibrate(100);
-//				startActivity(intent);
-//			}
-//		});
-//
-//		btndb = (Button)findViewById(R.id.btndb_Main);
-//		btndb.setOnClickListener(new OnClickListener(){
-//			@Override
-//			public void onClick(View v) {
-//				Intent intent = new Intent(MainActivity.this, DbActivity.class);
-//				vibe.vibrate(100);
-//				startActivity(intent);
-//			}
-//		});
-//
-//		btnContent = (Button)findViewById(R.id.btnContent_Main);
-//		btnContent.setOnClickListener(new OnClickListener(){
-//			@Override
-//			public void onClick(View v) {
-//				Intent intent = new Intent(MainActivity.this, HelpActivity.class);
-//				vibe.vibrate(100);
-//				startActivity(intent);
-//			}
-//		});
-//
-//		btnmanbo = (Button)findViewById(R.id.btnmanbo);
-//		btnmanbo.setOnClickListener(new OnClickListener() {
-//			@Override
-//			public void onClick(View v) {
-//				Intent intent = new Intent(MainActivity.this, IntroActivity.class);
-//				intent.putExtra("select", "만보기");
-//				vibe.vibrate(100);
-//				startActivity(intent);
-//			}
-//		});
-
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.main_walk:
+                Intent walk = new Intent(MainActivity.this, WalkActivity.class);
+                startActivity(walk);
                 Toast.makeText(this, "만보계", Toast.LENGTH_SHORT).show();
                 break;
 
@@ -136,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.txt_diary:
-                Intent diary = new Intent(MainActivity.this, DBActivity.class);
+                Intent diary = new Intent(MainActivity.this, DiaryActivity.class);
                 startActivity(diary);
                 break;
         }

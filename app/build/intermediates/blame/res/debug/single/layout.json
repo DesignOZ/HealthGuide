@@ -8,12 +8,12 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
         "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
@@ -40,12 +40,12 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_stretching.xml",
         "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\layout\\main_stretching.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -56,12 +56,12 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -196,6 +196,10 @@
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diary.xml",
+        "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\layout\\activity_diary.xml"
+    },
+    {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -242,6 +246,10 @@
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_walk.xml",
+        "source": "D:\\Desktop\\HealthGuide\\app\\src\\main\\res\\layout\\activity_walk.xml"
     },
     {
         "merged": "D:\\Desktop\\HealthGuide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
