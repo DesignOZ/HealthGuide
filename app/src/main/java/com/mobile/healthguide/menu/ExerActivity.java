@@ -28,7 +28,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobile.healthguide.db.DbActivity;
+import com.mobile.healthguide.DBActivity;
 import com.mobile.healthguide.R;
 import com.mobile.healthguide.util.Kalman;
 
@@ -100,7 +100,7 @@ public class ExerActivity extends AppCompatActivity {
         btnSavedb.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ExerActivity.this, DbActivity.class);
+                Intent intent = new Intent(ExerActivity.this, DBActivity.class);
                 vibe.vibrate(100);
                 startActivity(intent);
             }
@@ -346,10 +346,6 @@ public class ExerActivity extends AppCompatActivity {
         super.onPause();
     }
 
-
-    /////////////////////////
-
-
     void sendData(String msg) {
         try {
             mOutputStream.write(msg.getBytes());
@@ -394,7 +390,7 @@ public class ExerActivity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            AlertDialog.Builder d = new AlertDialog.Builder(this);                                //다이얼 로그 팝업
+            AlertDialog.Builder d = new AlertDialog.Builder(this);                                  //다이얼 로그 팝업
             d.setTitle("알림");
             d.setMessage("뒤로 이동 시 블루투스 연결이 해제 됩니다. \n 이동하시겠습니까?");
             d.setIcon(R.drawable.ic_launcher);
@@ -424,9 +420,7 @@ public class ExerActivity extends AppCompatActivity {
 
         return super.onKeyDown(keyCode, event);
     }
-//-------------------------------------------------------------------------------------------------------------------
-
-
+    //-------------------------------------------------------------------------------------------------------------------
     //------------------------------------------------- 블루투스 연결 해제 및 초기화 부분 소스 추가 함.
     public void destroySocket() {
         try {

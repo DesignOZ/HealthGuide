@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="24"
-    density="420dpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xxhdpi"
     format="7"
-    timestamp="938612818341850" >
+    timestamp="24148489916999" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1636" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="588" />
     <task
         name="verifier"
-        duration="0" />
+        duration="59" />
 
     <artifact
-        location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="D:\Desktop\HealthGuide\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="938478806108449" >
+    <build timestamp="24148489916999" >
         <artifact
-            location="D:\Desktop\HealthGuideAppbt\app\build\outputs\apk\app-debug.apk"
+            location="D:\Desktop\HealthGuide\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="938612818341850" >
-        <artifact
-            location="D:\Desktop\HealthGuideAppbt\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

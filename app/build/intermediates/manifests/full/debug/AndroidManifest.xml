@@ -49,7 +49,7 @@
             android:name="com.mobile.healthguide.menu.ExerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.mobile.healthguide.db.DbActivity"
+            android:name="com.mobile.healthguide.DBActivity"
             android:screenOrientation="portrait" />
     </application>
 

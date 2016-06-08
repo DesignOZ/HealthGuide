@@ -1,7 +1,5 @@
 package com.mobile.healthguide.menu;
 
-import com.mobile.healthguide.R;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
+import com.mobile.healthguide.R;
 
 public class IntroActivity extends AppCompatActivity {
     Button btnUse, btnStart, btnBack;

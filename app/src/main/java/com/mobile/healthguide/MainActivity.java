@@ -17,7 +17,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.mobile.healthguide.util.BackPressCloseHandler;
-import com.mobile.healthguide.db.DbActivity;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
@@ -137,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.txt_diary:
-                Intent diary = new Intent(MainActivity.this, DbActivity.class);
+                Intent diary = new Intent(MainActivity.this, DBActivity.class);
                 startActivity(diary);
                 break;
         }
