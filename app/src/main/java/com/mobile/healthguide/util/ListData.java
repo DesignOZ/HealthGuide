@@ -7,11 +7,11 @@ import java.util.Comparator;
 
 public class ListData {
 
-    public Drawable mIcon;
-
+    public Drawable mIcon;      // HelpActivity
 
     public String mTitle;
 
+    public String mCount;       // DiaryActivity
 
     public String mDate;
 

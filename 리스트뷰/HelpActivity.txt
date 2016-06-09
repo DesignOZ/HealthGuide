@@ -41,40 +41,40 @@ public class HelpActivity extends Activity {
 		mListView.setAdapter(mAdapter);
 
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_1),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_2),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_3),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_4),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_5),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_6),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_7),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_8),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_9),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_10),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_11),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 		mAdapter.addItem(getResources().getDrawable(R.drawable.juho_12),
-				"½ºÆ®·¹Äª",
+				"ï¿½ï¿½Æ®ï¿½ï¿½Äª",
 				"2016-06-06");
 
 		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -39,7 +39,7 @@ public class HelpActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        mListView = (ListView) findViewById(R.id.mList);
+        mListView = (ListView) findViewById(R.id.list_stretching);
 
         mAdapter = new ListViewAdapter(this);
         mListView.setAdapter(mAdapter);
@@ -192,11 +192,10 @@ public class HelpActivity extends AppCompatActivity {
                 holder = new ViewHolder();
 
                 LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                convertView = inflater.inflate(R.layout.listview_item, null);
+                convertView = inflater.inflate(R.layout.listview_stretching, null);
 
-                holder.mIcon = (ImageView) convertView.findViewById(R.id.mImage);
-                holder.mText = (TextView) convertView.findViewById(R.id.mText);
-                holder.mDate = (TextView) convertView.findViewById(R.id.mDate);
+                holder.mIcon = (ImageView) convertView.findViewById(R.id.img_stretching_title);
+                holder.mText = (TextView) convertView.findViewById(R.id.txt_stretching_title);
 
                 convertView.setTag(holder);
             } else {
@@ -213,7 +212,6 @@ public class HelpActivity extends AppCompatActivity {
             }
 
             holder.mText.setText(mData.mTitle);
-            holder.mDate.setText(mData.mDate);
 
             return convertView;
         }
